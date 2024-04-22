@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Slabo+13px');
+
+.paragraph {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Slabo 13px', serif;
+    font-weight: undefined;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

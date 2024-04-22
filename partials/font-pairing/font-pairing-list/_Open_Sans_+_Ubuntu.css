@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:700');
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.53;
+}
+
+.heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    line-height: 0.98;
+    text-transform: uppercase;
+}
+            

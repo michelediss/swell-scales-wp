@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Average+Sans|Goudy+Bookletter+1911');
+
+.paragraph {
+    font-family: 'Average Sans', sans-serif;
+    line-height: 1.38;
+}
+
+.heading {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: 500;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

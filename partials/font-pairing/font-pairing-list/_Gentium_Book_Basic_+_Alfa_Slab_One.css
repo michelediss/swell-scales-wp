@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic');
+
+.paragraph {
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 1.35;
+}
+
+.heading {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 700;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

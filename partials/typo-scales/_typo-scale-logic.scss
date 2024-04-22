@@ -1,0 +1,91 @@
+//_typo-scale-logic.scss
+
+@function pow($base, $exponent) {
+  $result: 1;
+  // Gestione degli esponenti positivi
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $result: $result * $base;
+    }
+  }
+  // Gestione degli esponenti negativi
+  @else if $exponent < 0 {
+    @for $i from 1 through abs($exponent) {
+      $result: $result / $base;
+    }
+  }
+  // $exponent == 0 ritorna sempre 1 per qualsiasi base
+  @return $result;
+}
+
+// Mixin per generare dimensioni base del font responsive
+@mixin generateResponsiveBaseFontSize {
+  $baseSize: map-get(map-get($settings, 'responsiveBaseFontSize'), 'baseSize');
+  $incrementFactor: map-get(map-get($settings, 'responsiveBaseFontSize'), 'incrementFactor');
+
+  html {
+    font-size: #{$baseSize}px; // Imposta la dimensione base del font
+  }
+
+  // Calcola e applica le dimensioni del font per ciascun breakpoint
+  @each $key, $value in $breakpoints {
+    $index: index(map-keys($breakpoints), $key) - 1; // Calcola l'indice corretto per il primo breakpoint
+    $size: $baseSize * pow($incrementFactor, $index + 1); // Calcola la nuova dimensione del font
+    $size: round($size * 100) / 100; // Arrotondamento a due cifre decimali
+
+    @media (min-width: $value) {
+      html {
+        font-size: #{$size}px; // Applica la dimensione calcolata
+      }
+    }
+  }
+}
+
+@include generateResponsiveBaseFontSize;
+
+
+
+// Funzione per generare la scala tipografica
+@function generateTypographicScale {
+  $f0: map-get(map-get($settings, 'customFontSizeScale'), 'f0');
+  $r: map-get(map-get($settings, 'customFontSizeScale'), 'r');
+  $count: map-get(map-get($settings, 'customFontSizeScale'), 'count');
+  $scale-names-above-base: map-get($settings, 'scaleNamesAboveBase');
+  $scale-names-below-base: map-get($settings, 'scaleNamesBelowBase');
+  $scale: ();
+
+  // Calcola le dimensioni sopra la base
+  @for $i from 0 through $count {
+    $size: $f0 * pow($r, $i);
+    $size: round($size * 100) / 100;
+    $scale-name: if($i < length($scale-names-above-base), nth($scale-names-above-base, $i + 1), 'scale-' + $i + 1);
+    $scale: map-merge($scale, ($scale-name: $size + rem));
+  }
+
+  // Calcola le dimensioni sotto la base
+  @for $i from 1 through length($scale-names-below-base) {
+    $size: $f0 / pow($r, $i);
+    $size: round($size * 100) / 100;
+    $scale-name: nth($scale-names-below-base, length($scale-names-below-base) - $i + 1);
+    $scale: map-merge($scale, ($scale-name: $size + rem));
+  }
+
+  @return $scale;
+}
+
+
+// Variabile per memorizzare la scala generata
+$custom-font-scale: generateTypographicScale();
+
+// Mixin per creare classi di scala tipografica senza line-height
+@mixin createTypographyClasses {
+  @each $name, $size in $custom-font-scale {
+    .text-#{$name} {
+      font-size: $size;
+      // line-height: calc(#{$size} * 1.5); // Commentato per escludere line-height
+    }
+  }
+}
+
+// Includi il mixin nel tuo SCSS per generare le classi
+@include createTypographyClasses;

@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran:600|Merriweather+Sans:300');
+
+.paragraph {
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.53;
+}
+
+.heading {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

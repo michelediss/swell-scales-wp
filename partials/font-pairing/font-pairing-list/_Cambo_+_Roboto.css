@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cambo|Roboto:300');
+
+.paragraph {
+    font-family: 'Cambo', serif;
+    line-height: 1.47;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.03;
+    text-transform: uppercase;
+}
+            

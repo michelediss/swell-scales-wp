@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300');
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.60;
+}
+
+.heading {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

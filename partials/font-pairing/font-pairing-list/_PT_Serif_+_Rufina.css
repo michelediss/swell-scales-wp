@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Rufina:700');
+
+.paragraph {
+    font-family: 'PT Serif', serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

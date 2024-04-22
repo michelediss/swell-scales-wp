@@ -1,0 +1,15 @@
+
+@import url('No font link available');
+
+.paragraph {
+    font-family: 'Fanwood Text', serif;
+    line-height: 1.28;
+}
+
+.heading {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 400;
+    line-height: 1.06;
+    text-transform: none;
+}
+            

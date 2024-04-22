@@ -1,0 +1,9 @@
+// _color-controllers.scss
+
+$colors: (
+  "orange": #FF7900,
+  "brown": #2D1A0C,  
+  "black": #000000,
+  "white": #ffffff,
+  "gradient": linear-gradient(to bottom, #000000, #2D1A0C, #000000)  
+) !global;

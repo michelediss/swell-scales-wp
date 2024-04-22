@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700|Fauna+One');
+
+.paragraph {
+    font-family: 'Fauna One', serif;
+    line-height: 1.64;
+}
+
+.heading {
+    font-family: 'Cinzel', cursive;
+    font-weight: 700;
+    line-height: 1.05;
+    text-transform: uppercase;
+}
+            

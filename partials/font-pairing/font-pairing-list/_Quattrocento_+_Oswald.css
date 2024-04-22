@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Quattrocento');
+
+.paragraph {
+    font-family: 'Quattrocento', serif;
+    line-height: 1.38;
+}
+
+.heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    line-height: 1.02;
+    text-transform: uppercase;
+}
+            

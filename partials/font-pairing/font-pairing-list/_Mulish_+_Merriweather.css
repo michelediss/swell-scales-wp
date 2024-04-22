@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Mulish:300');
+
+.paragraph {
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.38;
+}
+
+.heading {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    line-height: 1.13;
+    text-transform: none;
+}
+            

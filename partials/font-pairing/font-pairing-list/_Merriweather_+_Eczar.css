@@ -1,0 +1,15 @@
+
+@import url('No font link available');
+
+.paragraph {
+    font-family: 'Merriweather', serif;
+    line-height: 1.71;
+}
+
+.heading {
+    font-family: 'Eczar', serif;
+    font-weight: 600;
+    line-height: 0.95;
+    text-transform: none;
+}
+            

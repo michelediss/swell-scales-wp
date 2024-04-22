@@ -1,0 +1,15 @@
+
+@import url('No font link available');
+
+.paragraph {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+    line-height: 0.94;
+    text-transform: none;
+}
+            

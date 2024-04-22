@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Raleway:300');
+
+.paragraph {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    line-height: 1.38;
+}
+
+.heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.02;
+    text-transform: none;
+}
+            

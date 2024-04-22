@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Lato');
+
+.paragraph {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    line-height: 1.02;
+    text-transform: none;
+}
+            

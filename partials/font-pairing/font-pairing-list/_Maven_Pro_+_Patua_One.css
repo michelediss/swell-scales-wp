@@ -1,0 +1,15 @@
+
+@import url('No font link available');
+
+.paragraph {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    line-height: 0.95;
+    text-transform: none;
+}
+            

@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sintony|Source+Sans+Pro:900');
+
+.paragraph {
+    font-family: 'Sintony', sans-serif;
+    line-height: 1.57;
+}
+
+.heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

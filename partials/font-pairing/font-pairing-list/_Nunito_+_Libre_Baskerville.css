@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700|Nunito');
+
+.paragraph {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    line-height: 0.93;
+    text-transform: none;
+}
+            

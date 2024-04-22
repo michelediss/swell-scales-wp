@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans');
+
+.paragraph {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.53;
+}
+
+.heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    line-height: 0.93;
+    text-transform: none;
+}
+            

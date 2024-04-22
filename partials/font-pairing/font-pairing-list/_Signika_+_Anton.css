@@ -1,0 +1,15 @@
+
+@import url('No font link available');
+
+.paragraph {
+    font-family: 'Signika', sans-serif;
+    line-height: 1.44;
+}
+
+.heading {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    line-height: 1.09;
+    text-transform: none;
+}
+            

@@ -1,0 +1,26 @@
+// _typo-scale-default.scss
+
+// Definizione delle scale dei nomi per sopra e sotto la base
+$scale-names-above-base: (
+  'base', 'lg', 'xl', '2xl', '3xl', '4xl', '5xl', '6xl', '7xl', '8xl', '9xl'
+) !global;
+
+$scale-names-below-base: (
+  'xs', 'sm'
+) !global;
+
+// Mappa globale che contiene tutte le sotto-mappe
+$settings: (
+  responsiveBaseFontSize: $responsiveBaseFontSize,
+  customFontSizeScale: $customFontSizeScale,
+  scaleNamesAboveBase: $scale-names-above-base,
+  scaleNamesBelowBase: $scale-names-below-base
+) !global;
+
+$breakpoints: (
+  'sm': 640px,
+  'md': 768px,
+  'lg': 1024px,
+  'xl': 1280px,
+  '2xl': 1536px
+) !global;

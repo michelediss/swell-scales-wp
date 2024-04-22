@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto:400,700');
+
+.paragraph {
+    font-family: 'Lora', serif;
+    line-height: 1.64;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

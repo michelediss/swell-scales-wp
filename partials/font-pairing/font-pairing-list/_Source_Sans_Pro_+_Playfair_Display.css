@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900|Source+Sans+Pro');
+
+.paragraph {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.29;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

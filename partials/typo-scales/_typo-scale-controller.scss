@@ -1,0 +1,16 @@
+// _typo-scale-controller.scss
+
+// Definizione delle mappe per ogni oggetto del JSON
+$responsiveBaseFontSize: (
+  baseSize: 16,
+  incrementFactor: 1.02
+);
+
+$customFontSizeScale: (
+  f0: 1,
+  r: 1.333,
+  n: 6,
+  count: 10
+);
+
+

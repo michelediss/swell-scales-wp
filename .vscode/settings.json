@@ -1,0 +1,9 @@
+{
+    "easysass.compileAfterSave": true,
+    "easysass.formats": [
+      { "format": "expanded", "extension": ".css" }
+    ],
+    "easysass.targetDir": "/",
+    "easysass.excludeRegex": "^(?!.*style\\.sass$).*\\.sass$"
+  }
+  

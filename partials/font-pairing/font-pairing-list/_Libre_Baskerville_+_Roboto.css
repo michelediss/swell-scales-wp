@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Roboto:500');
+
+.paragraph {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.57;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.04;
+    text-transform: none;
+}
+            

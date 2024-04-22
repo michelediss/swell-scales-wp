@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Questrial');
+
+.paragraph {
+    font-family: 'Alegreya', serif;
+    line-height: 1.26;
+}
+
+.heading {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 300;
+    line-height: 1.02;
+    text-transform: uppercase;
+}
+            

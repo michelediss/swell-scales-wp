@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cardo|Libre+Franklin');
+
+.paragraph {
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.64;
+}
+
+.heading {
+    font-family: 'Cardo', serif;
+    font-weight: undefined;
+    line-height: 0.96;
+    text-transform: none;
+}
+            

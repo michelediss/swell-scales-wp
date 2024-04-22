@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif');
+
+.paragraph {
+    font-family: 'Alegreya', serif;
+    line-height: 1.35;
+}
+
+.heading {
+    font-family: 'Bree Serif', serif;
+    font-weight: undefined;
+    line-height: 0.95;
+    text-transform: uppercase;
+}
+            

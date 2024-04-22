@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ovo|Quattrocento+Sans');
+
+.paragraph {
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 1.47;
+}
+
+.heading {
+    font-family: 'Ovo', serif;
+    font-weight: undefined;
+    line-height: 0.95;
+    text-transform: none;
+}
+            

@@ -1,0 +1,17 @@
+// _color-logic.scss
+
+@mixin generate-color-classes {
+  @each $color-name, $color-value in $colors {
+    .bg-#{$color-name} {
+      background-color: $color-value;
+    }
+    .text-#{$color-name} {
+      color: $color-value;
+    }
+    .border-#{$color-name} {
+      border-color: $color-value;
+    }
+  }
+}
+
+@include generate-color-classes; 

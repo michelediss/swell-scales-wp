@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker');
+
+.paragraph {
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.41;
+}
+
+.heading {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: undefined;
+    line-height: 0.95;
+    text-transform: none;
+}
+            
